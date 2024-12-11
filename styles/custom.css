@@ -11902,9 +11902,10 @@ li {
   font-size: 25px;
 }
 
-section.bg-primary {
+.bg-primary {
   background-color: #7036BA !important;
 }
+
 section .titulo {
   margin: 220px 0;
 }
