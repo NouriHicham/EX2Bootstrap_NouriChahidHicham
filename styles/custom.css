@@ -11848,6 +11848,14 @@ h1, h2, h3, h4, h5, h6, li, a {
   font-family: "Roboto", sans-serif;
 }
 
+h2 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 21px;
+}
+
 li {
   font-weight: 200;
 }
@@ -11857,6 +11865,14 @@ li {
   font-weight: 500;
   font-size: 20px;
   background-color: #00BFB4 !important;
+}
+
+.img-atar {
+  min-height: 400px;
+}
+.img-atar img {
+  width: 100%;
+  height: auto;
 }
 
 section.bg-primary {
@@ -11875,6 +11891,18 @@ section .titulo h1 {
 }
 section .titulo h3 {
   font-weight: 300;
+}
+
+.sections {
+  margin: 50px auto;
+}
+
+.start {
+  font-size: 100px;
+}
+
+.arrow {
+  max-width: 15px;
 }
 
 /*# sourceMappingURL=custom.css.map */
