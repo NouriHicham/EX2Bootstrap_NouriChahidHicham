@@ -11844,8 +11844,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+}
+
 section.bg-primary {
-  background-color: #7036BA;
+  background-color: #7036BA !important;
+}
+section .titulo {
+  margin: 220px 0;
+}
+@media all and (min-width: 1500px) {
+  section .titulo {
+    padding-left: 750px;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
