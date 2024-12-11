@@ -1,1 +1,11 @@
-@use "../node_modules/bootstrap/scss/bootstrap.scss"
+//import bootstrap
+@use "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//variable que uso
+$bg-purple: #7036BA;
+
+section{
+   &.bg-primary{
+      background-color: $bg-purple;
+   }
+}
