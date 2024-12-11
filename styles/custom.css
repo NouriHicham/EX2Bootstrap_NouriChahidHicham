@@ -11908,7 +11908,7 @@ section.bg-primary {
 section .titulo {
   margin: 220px 0;
 }
-@media all and (min-width: 1500px) {
+@media (min-width: 1500px) {
   section .titulo {
     padding-left: 750px;
   }
