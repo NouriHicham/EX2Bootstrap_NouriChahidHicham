@@ -11844,6 +11844,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-primary {
+  background-color: #00BFB4 !important;
+}
+
 h1, h2, h3, h4, h5, h6, li, a {
   font-family: "Roboto", sans-serif;
 }
@@ -11860,11 +11864,10 @@ li {
   font-weight: 200;
 }
 
-.btn-primary {
+.btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  background-color: #00BFB4 !important;
 }
 
 .img-atar {
@@ -11873,6 +11876,30 @@ li {
 .img-atar img {
   width: 100%;
   height: auto;
+}
+
+.bg-secondary {
+  background-color: #A76BF2 !important;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+}
+.bg-secondary h4 {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.bg-secondary li {
+  font-size: 23px;
+}
+.bg-secondary p {
+  font-size: 23px;
+  padding-bottom: 25px;
+}
+.bg-secondary p strong {
+  font-size: 40px;
+}
+.bg-secondary button {
+  font-size: 25px;
 }
 
 section.bg-primary {
@@ -11913,6 +11940,15 @@ section .titulo h3 {
 }
 .icon-feature img {
   height: 100%;
+}
+
+.accordion-button {
+  font-size: 20px;
+}
+
+.accordion-body {
+  font-size: 16px;
+  font-weight: 100px;
 }
 
 /*# sourceMappingURL=custom.css.map */

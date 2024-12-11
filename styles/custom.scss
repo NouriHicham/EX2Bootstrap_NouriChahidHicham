@@ -3,7 +3,12 @@
 
 //variable que uso
 $bg-purple: #7036BA;
+$bg-purple2: #A76BF2;
 $font: "Roboto", sans-serif;
+
+.btn-primary{
+   background-color: #00BFB4 !important;
+}
 
 h1, h2, h3, h4, h5 ,h6, li, a{
    font-family: $font;
@@ -21,11 +26,10 @@ li{
  font-weight: 200;
 }
 
-.btn-primary{
+.btn{
    font-family: $font;
    font-weight: 500;
    font-size: 20px;
-   background-color: #00BFB4 !important;
 }
 
 .img-atar{
@@ -36,10 +40,38 @@ li{
    }
 }
 
+.bg-secondary{
+   background-color: $bg-purple2 !important;
+   border-radius: 5px;
+   padding: 15px;
+   margin: 15px;
+
+   h4{
+      font-size: 40px;
+      padding-bottom: 15px;
+   }
+
+   li{
+      font-size: 23px;
+   }
+
+   p{
+      strong{
+         font-size: 40px;
+      }
+      font-size: 23px;
+      padding-bottom: 25px;
+   }
+   button{
+      font-size: 25px;
+   }
+}
+
 section{
    &.bg-primary{
       background-color: $bg-purple !important;
    }
+
    .titulo{
       margin: 220px 0;
       @media all and (min-width: 1500px) {
@@ -72,8 +104,19 @@ section{
    height: 100px;
    width: 150px;
    text-align: center;
+
    img{
       height: 100%;
       
    }
+
+}
+
+.accordion-button{
+   font-size: 20px;
+}
+
+.accordion-body{
+   font-size: 16px;
+   font-weight: 100px;
 }

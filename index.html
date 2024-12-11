@@ -91,24 +91,25 @@
          </div>
       </section>
 
+      <!-- section features -->
       <section class="container-fluid">
          <div class="container sections d-flex flex-column">
             <h2 class="text-center pt-5 pb-5">Features</h2>
             <div class="row">
                <div class="col">
                   <div class="icon-feature"><img src="img/pc.png" alt="pc"></div>
-                  <h6 class="text-center pt-5">Comfortable Place</h6>
-                  <p>Train where it is convenient for you. You don’t need to go to gym anymore</p>
+                  <h6 class="text-center pt-5" style="font-size: 25px;">Comfortable Place</h6>
+                  <p class="text-center" style="font-size: 20px;">Train where it is convenient for you. You don’t need to go to gym anymore</p>
                </div>
                <div class="col">
                   <div class="icon-feature"><img src="img/copa.png" alt="copa"></div>
-                  <h6 class="text-center pt-5">Professional Trainers</h6>
-                  <p>Train where it is convenient for you. You don’t need to go to gym anymore</p>
+                  <h6 class="text-center pt-5" style="font-size: 25px;">Professional Trainers</h6>
+                  <p class="text-center" style="font-size: 20px;">Train where it is convenient for you. You don’t need to go to gym anymore</p>
                </div>
                <div class="col">
                   <div class="icon-feature"><img src="img/study.png" alt="study"></div>
-                  <h6 class="text-center pt-5">Individual Approach</h6>
-                  <p>Train where it is convenient for you. You don’t need to go to gym anymore</p>
+                  <h6 class="text-center pt-5" style="font-size: 25px;">Individual Approach</h6>
+                  <p class="text-center" style="font-size: 20px;">Train where it is convenient for you. You don’t need to go to gym anymore</p>
                </div>
             </div>
             <button type="button" class="btn btn-primary border border-0 rounded-pill py-2 px-5 mt-5 mb-5 m-auto" style="width: 217px;">Start Training</button>
@@ -117,11 +118,11 @@
       </section>
 
       <!-- section precios -->
-       <section class="container-fluid">
+       <section class="container-fluid bg-primary pb-5 pt-5">
          <div class="container sections">
-            <h2 class="text-center">Pricing</h2>
-            <div class="row">
-               <div class="col">
+            <h2 class="text-center text-light pb-5">Pricing</h2>
+            <div class="row text-light">
+               <div class="col bg-secondary">
                   <h4>Start</h4>
                   <ul>
                      <li>Program for 8 workouts</li>
@@ -129,10 +130,10 @@
                      <li>Video instructions</li>
                   </ul>
                   <p><strong>$5</strong>/month</p>
-                  <button type="button" class="btn btn-outline-light">Choose</button>
+                  <button type="button" class="btn btn-outline-light rounded-pill px-4 py-2">Choose</button>
                </div>
 
-               <div class="col">
+               <div class="col bg-secondary">
                   <h4>Middle</h4>
                   <ul>
                      <li>Program for 18 workouts</li>
@@ -142,10 +143,10 @@
                      <li>1 technique analysis</li>
                   </ul>
                   <p><strong>$14</strong>/month</p>
-                  <button type="button" class="btn btn-outline-light">Choose</button>
+                  <button type="button" class="btn btn-outline-light rounded-pill px-5 py-2">Choose</button>
                </div>
 
-               <div class="col">
+               <div class="col bg-secondary">
                   <h4>Pro</h4>
                   <ul>
                      <li>Program for 40 workouts</li>
@@ -156,7 +157,7 @@
                      <li>Access to chat with other sportsmen</li>
                   </ul>
                   <p><strong>$20</strong>/month</p>
-                  <button type="button" class="btn btn-outline-light">Choose</button>
+                  <button type="button" class="btn btn-outline-light rounded-pill px-5 py-2">Choose</button>
                </div>
             </div>
          </div>
@@ -165,49 +166,82 @@
        <section class="container-fluid">
          <div class="container sections">
             <h2 class="text-center">Feedback About Us</h2>
+            <div id="carouselExample" class="carousel slide">
+               <div class="carousel-inner">
+                 <div class="carousel-item active">
+                   <img src="..." class="d-block w-100" alt="...">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="..." class="d-block w-100" alt="...">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="..." class="d-block w-100" alt="...">
+                 </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Next</span>
+               </button>
+             </div>
          </div>
        </section>
        <!-- section preguntas -->
-       <section class="container-fluid">
+       <section class="container-fluid bg-primary">
          <div class="container sections">
             <h2 class="text-center">FAQ</h2>
             <div class="accordion" id="accordionExample">
-               <div class="accordion-item">
+               <div class="accordion-item bg-transparent border-0 text-light">
                  <h2 class="accordion-header">
-                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                     Accordion Item #1
+                   <button class="accordion-button bg-transparent border-0 shadow-none text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    🔵 How can I Start?
                    </button>
                  </h2>
                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                    <div class="accordion-body">
-                     <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                     Sign up in Fitness Online with your phone number. No spam guaranteed. You can skip using Fitness Onlline at any moment. We will immeadiately add you in our chat bot, where you will be able to pay chosen pricing plan. In 24 hours after payment your trainer will contact you to get acquainted and to make training program best for you
                    </div>
                  </div>
                </div>
-               <div class="accordion-item">
+               <div class="accordion-item bg-transparent border-0 text-light">
                  <h2 class="accordion-header">
-                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                     Accordion Item #2
+                   <button class="accordion-button collapsed bg-transparent border-0 shadow-none text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     🔵 How much does it cost?
                    </button>
                  </h2>
                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                    <div class="accordion-body">
-                     <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                     Sign up in Fitness Online with your phone number. No spam guaranteed. You can skip using Fitness Onlline at any moment. We will immeadiately add you in our chat bot, where you will be able to pay chosen pricing plan. In 24 hours after payment your trainer will contact you to get acquainted and to make training program best for you
                    </div>
                  </div>
                </div>
-               <div class="accordion-item">
+               <div class="accordion-item bg-transparent border-0 text-light">
                  <h2 class="accordion-header">
-                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     Accordion Item #3
+                   <button class="accordion-button collapsed bg-transparent border-0 shadow-none text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     🔵 How will I train?
                    </button>
                  </h2>
                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                    <div class="accordion-body">
-                     <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                     Sign up in Fitness Online with your phone number. No spam guaranteed. You can skip using Fitness Onlline at any moment. We will immeadiately add you in our chat bot, where you will be able to pay chosen pricing plan. In 24 hours after payment your trainer will contact you to get acquainted and to make training program best for you
                    </div>
                  </div>
                </div>
+               <div class="accordion-item bg-transparent border-0 text-light" >
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-transparent border-0 shadow-none text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                     🔵 Who are trainers?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. 
+                    </div>
+                  </div>
+                </div>
              </div>
          </div>
        </section>
