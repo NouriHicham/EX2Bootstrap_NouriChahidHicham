@@ -11870,5 +11870,11 @@ section .titulo {
     padding-left: 750px;
   }
 }
+section .titulo h1 {
+  font-size: 70px;
+}
+section .titulo h3 {
+  font-weight: 300;
+}
 
 /*# sourceMappingURL=custom.css.map */
