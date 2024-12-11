@@ -11905,4 +11905,14 @@ section .titulo h3 {
   max-width: 15px;
 }
 
+.icon-feature {
+  margin: auto;
+  height: 100px;
+  width: 150px;
+  text-align: center;
+}
+.icon-feature img {
+  height: 100%;
+}
+
 /*# sourceMappingURL=custom.css.map */
